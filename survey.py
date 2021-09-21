@@ -1,5 +1,4 @@
 import datetime
-import webbrowser
 
 FULL_NAME = ['ANAKIN TROTTER', 'ZHENDA HU']
 UCLA_ID = ['805809257', '405734589']
@@ -28,6 +27,4 @@ for i in range(len(FULL_NAME)):
 
     html_file.close()
     html_out.close()
-
-    webbrowser.open_new_tab('copy' + str(i) + '.html')
 
