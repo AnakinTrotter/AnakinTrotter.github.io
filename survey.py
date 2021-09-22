@@ -1,7 +1,7 @@
 import datetime
 
-FULL_NAME = ['ANAKIN TROTTER', 'ZHENDA HU']
-UCLA_ID = ['805809257', '405734589']
+FULL_NAME = ['ANAKIN TROTTER', 'ZHENDA HU', 'DAMIÁN RIVAS']
+UCLA_ID = ['805809257', '405734589', '705604483']
 DATE_AND_TIME = datetime.datetime.now().strftime('%#m/%e/%Y') + ' 9:21 AM'
 NEXT_DAY = (datetime.datetime.today() + datetime.timedelta(days=1)).strftime('%#m/%e/%Y')
 
